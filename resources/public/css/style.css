@@ -1,0 +1,75 @@
+/* some style */
+
+* {
+    overflow: hidden;
+}
+
+#app {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /* max-height: fit-content; */
+    /* max-width: fit-content; */
+    /* display: table; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+#book {
+    /* background-color: green */
+    /* width: 100%; */
+    width: 1224px;
+    margin: auto;
+    height: 100%;
+    /* overflow: hidden; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    /* display: table-cell; */
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.page {
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    /* border: 1px solid black; */
+    /* /\* background-color: white; *\/ */
+    /* background-image: url("/images/yearbook/yearbook001.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+}
+
+.--right {
+    background-position: center left;
+    text-align: left;
+    /* border-left: 1px solid black; */
+}
+
+.--right img {
+    border-left: 1px solid black;
+}
+
+.--left{
+    background-position: center right;
+    text-align: right;
+}
+
+/* .stf__parent{ */
+/*     text-align: center; */
+/*     vertical-align: middle; */
+/*     display: table-cell; */
+/* } */
+
+img {
+    object-fit: contain;
+    /* width: 100%; */
+    /* height: 100%; */
+    max-width: 100%;
+    max-height: 100%;
+}
